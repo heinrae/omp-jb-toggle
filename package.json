@@ -1,0 +1,28 @@
+{
+  "name": "omp-jb-toggle",
+  "version": "0.1.0",
+  "description": "Session-scoped toggle that injects a local profile file into the omp system prompt.",
+  "type": "module",
+  "license": "MIT",
+  "files": [
+    "extensions",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "omp",
+    "pi-package",
+    "pi-extension",
+    "system-prompt"
+  ],
+  "omp": {
+    "extensions": [
+      "./extensions/jb.ts"
+    ]
+  },
+  "pi": {
+    "extensions": [
+      "./extensions/jb.ts"
+    ]
+  }
+}
